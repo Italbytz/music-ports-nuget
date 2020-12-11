@@ -4,7 +4,7 @@ using ExplicitArchitecture;
 
 namespace ExplicitArchitecture.TuneSearchExample.Core.Ports
 {
-    public interface ISearchTracksService : IService<SearchTracksDTO, List<CollectionEntity>>
+    public interface ISearchTracksService : IService<ISearchTerm, List<ICollectionEntity>>
     {
     }
 }

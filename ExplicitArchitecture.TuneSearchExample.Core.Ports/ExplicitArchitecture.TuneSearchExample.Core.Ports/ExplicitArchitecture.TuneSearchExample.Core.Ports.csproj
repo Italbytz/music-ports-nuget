@@ -1,13 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;netcoreapp3.1</TargetFrameworks>
     <PackOnBuild>true</PackOnBuild>
-    <PackageVersion>0.1.1</PackageVersion>
+    <PackageVersion>0.1.4</PackageVersion>
     <Authors>Robin Nunkesser</Authors>
     <Description>Application core ports of an example for explicit architecture</Description>
     <PackageLicenseUrl>https://github.com/RobinNunkesser/explicitarchitecture-tunesearch-core-ports-nuget/blob/main/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/RobinNunkesser/explicitarchitecture-tunesearch-core-ports-nuget</PackageProjectUrl>
+    <TargetFrameworks>netstandard2.0;netcoreapp3.1</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>

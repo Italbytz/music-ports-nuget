@@ -7,6 +7,6 @@ namespace ExplicitArchitecture.TuneSearchExample.Core.Ports
 {
     public interface ITunesSearchEngine
     {
-        Task<Result<List<TrackEntity>>> GetSongs(string term);
+        Task<Result<List<ITrackEntity>>> GetSongs(string term);
     }       
 }
