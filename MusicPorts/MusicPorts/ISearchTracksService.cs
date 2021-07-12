@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using ExplicitArchitecture;
+using CommonPorts;
 
-namespace ExplicitArchitecture.TuneSearchExample.Core.Ports
+namespace MusicPorts
 {
     public interface ISearchTracksService : IService<ISearchTerm, List<ICollectionEntity>>
     {

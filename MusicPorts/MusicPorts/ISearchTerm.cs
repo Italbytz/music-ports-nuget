@@ -1,4 +1,4 @@
-namespace ExplicitArchitecture.TuneSearchExample.Core.Ports
+namespace MusicPorts
 {
     public interface ISearchTerm
     {

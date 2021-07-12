@@ -1,6 +1,6 @@
 using System;
 
-namespace ExplicitArchitecture.TuneSearchExample.Core.Ports
+namespace MusicPorts
 {
     public interface ITrackEntity : IComparable<ITrackEntity>
     {

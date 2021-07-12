@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace ExplicitArchitecture.TuneSearchExample.Core.Ports
+namespace MusicPorts
 {
     public interface ICollectionEntity
     {

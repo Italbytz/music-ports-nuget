@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using ExplicitArchitecture;
+using CommonPorts;
 
-namespace ExplicitArchitecture.TuneSearchExample.Core.Ports
+namespace MusicPorts
 {
     public interface ITunesSearchEngine
     {
