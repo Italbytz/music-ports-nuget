@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using CommonPorts;
+using Italbytz.Ports.Common;
 
-namespace MusicPorts
+namespace Italbytz.Ports.Music
 {
     public interface ISearchTracksService : IService<ISearchTerm, List<ICollectionEntity>>
     {

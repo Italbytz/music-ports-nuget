@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace MusicPorts
+namespace Italbytz.Ports.Music
 {
     public interface ICollectionEntity
     {

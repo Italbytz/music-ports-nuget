@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using CommonPorts;
+using Italbytz.Ports.Common;
 
-namespace MusicPorts
+namespace Italbytz.Ports.Music
 {
     public interface ITunesSearchEngine
     {

@@ -1,4 +1,4 @@
-namespace MusicPorts
+namespace Italbytz.Ports.Music
 {
     public interface ISearchTerm
     {

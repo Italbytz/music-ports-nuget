@@ -1,6 +1,6 @@
 using System;
 
-namespace MusicPorts
+namespace Italbytz.Ports.Music
 {
     public interface ITrackEntity : IComparable<ITrackEntity>
     {
